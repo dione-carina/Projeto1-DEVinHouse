@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: .1rem;
+}
+
+h2 {
+    text-align: center;
+}
+
+.foca {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+fieldset {
+    margin-top: 1rem;
+    border-radius: .2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 2rem;
+}
+
+.topo {
+    overflow: hidden;
+    background-color: rgb(51, 51, 51);
+}
+
+h1 {
+    display: block;
+    color: #f2f2f2;
+    text-align:center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#img {
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+}  
+
+#h4Foca {
+    display: inline;
+}
+  
+.content {
+    background-color: rgb(221, 221, 221);
+    padding: 10px;
+}
+  
+.footer {
+    background-color: #faf5f5;
+    padding: 10px;
+    text-align:left;
+}
+    
+ul {
+    list-style: none;
+    text-align: center;
+}
+    
+button {
+    background:  #faf5f5;
+    border-radius: .2rem;
+    transition: .3s;
+    cursor: pointer;
+}
+
+#btnAdd:hover {
+    background:rgb(134, 132, 120);
+}
+
+#rodape {
+    font-size: 10px;
+}
+
+label {
+    width: 15%;
+    display: inline-block;;
+    text-align: left;
+}
+
+input[type=checkbox]:checked + label.tachado {
+    text-decoration: line-through;
+}
+
+li:nth-child(odd) {
+    color:rgb(51, 51, 51);
+    font-size: 15px;
+}
+
+li:nth-child(even) {
+    color: black;
+    font-size: 15px;
+}
+
+li:nth-child(odd):hover {
+    background-color: rgb(144, 144, 144);
+}
+
+li:nth-child(even):hover {
+    background-color: rgb(199, 198, 198);
+}
+
+.excluir {
+    background: url(imagens/excluir.png);
+    background-size: cover;
+    padding: 15px;
+    border: 2px;
+    margin-top: 10px;
+}
+
+::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(153, 168, 170);
+}
+
